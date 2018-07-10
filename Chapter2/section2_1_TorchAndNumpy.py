@@ -65,3 +65,21 @@ tensor:  tensor(0.6667)
 # 4 - 矩阵的乘法
 data = [[1, 2], [3, 4]]
 tensor = torch.FloatTensor(data)
+
+# 正确操作
+print 'numpy: ', np.matmul(data, data)
+'''
+numpy:  [[ 7 10]
+ [15 22]]
+'''
+
+print 'pyTorch: ', torch.matmul(tensor, tensor)
+'''
+pyTorch:  tensor([[  7.,  10.],
+        [ 15.,  22.]])
+'''
+
+# 错误的操作
+# print 'numpy: ', data.dot(data)
+# print 'pyTorch: ', tensor.dot(tensor)
+
