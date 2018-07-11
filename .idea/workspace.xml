@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6b05f3-9ed2-475e-a58f-8ac2747832c0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter3/section3_3_ConstructNet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter3/section3_4_SaveModle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter3/section3_5_ReadModle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3/section3_2_Classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/section3_2_Classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +41,8 @@
       <file leaf-file-name="section3_4_SaveModle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter3/section3_4_SaveModle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="31" column="15" lean-forward="true" selection-start-line="15" selection-end-line="31" selection-end-column="15" />
+            <state>
+              <caret selection-end-column="23" />
               <folding>
                 <element signature="e#25#37#0" expanded="true" />
               </folding>
@@ -54,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section3_5_ReadModle.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="section3_5_ReadModle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter3/section3_5_ReadModle.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#25#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section3_6_DataLoader.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
                 <element signature="e#25#37#0" expanded="true" />
               </folding>
@@ -101,6 +109,7 @@
         <option value="$PROJECT_DIR$/Chapter3/section3_1_Regression.py" />
         <option value="$PROJECT_DIR$/Chapter3/section3_4_SaveModle.py" />
         <option value="$PROJECT_DIR$/Chapter3/section3_5_ReadModle.py" />
+        <option value="$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py" />
       </list>
     </option>
   </component>
@@ -155,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.section3_5_ReadModle">
+  <component name="RunManager" selected="Python.section3_6_DataLoader">
     <configuration name="section3_2_Classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pytorch_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,7 +237,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="section3_6_DataLoader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pytorch_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,30 +245,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.section3_2_Classification" />
       <item itemvalue="Python.section3_3_ConstructNet" />
       <item itemvalue="Python.section3_4_SaveModle" />
       <item itemvalue="Python.section3_5_ReadModle" />
+      <item itemvalue="Python.section3_6_DataLoader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.section3_6_DataLoader" />
         <item itemvalue="Python.section3_5_ReadModle" />
         <item itemvalue="Python.section3_4_SaveModle" />
         <item itemvalue="Python.section3_3_ConstructNet" />
         <item itemvalue="Python.section3_2_Classification" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +294,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21114865" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24324325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -405,20 +414,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter3/section3_4_SaveModle.py">
+    <entry file="file://$PROJECT_DIR$/Chapter3/section3_5_ReadModle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="15" lean-forward="true" selection-start-line="15" selection-end-line="31" selection-end-column="15" />
+        <state relative-caret-position="304">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#25#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter3/section3_5_ReadModle.py">
+    <entry file="file://$PROJECT_DIR$/Chapter3/section3_4_SaveModle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state>
+          <caret selection-end-column="23" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
             <element signature="e#25#37#0" expanded="true" />
           </folding>
