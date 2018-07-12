@@ -3,6 +3,21 @@
 import torch
 import numpy as np
 
+# 创建tensor的多种方式
+tensor1 = torch.Tensor(2, 3)
+print(tensor1)
+'''
+tensor([[-2.2565e+07,  4.5842e-41, -5.3370e+08],
+        [ 4.5842e-41,  4.4842e-44,  0.0000e+00]])
+'''
+
+tensor2 = torch.rand(2, 3)
+print(tensor2)
+'''
+tensor([[ 0.2535,  0.0926,  0.7768],
+        [ 0.8807,  0.6189,  0.1471]])
+'''
+
 # Numpy 与PyTorch数据格式之间的转换
 np_data = np.arange(6).reshape(2, 3)
 torch_data = torch.from_numpy(np_data)

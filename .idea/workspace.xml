@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cb6b05f3-9ed2-475e-a58f-8ac2747832c0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,14 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="section4_5_MnistRNN.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="section4_5_MnistRNN.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="92">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#25#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section2_1_TorchAndNumpy.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -54,7 +64,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Chapter2/section2_1_torchAndNumpy.py" />
-        <option value="$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py" />
         <option value="$PROJECT_DIR$/Chapter2/section2_2_Variable.py" />
         <option value="$PROJECT_DIR$/Chapter2/section2_3_ActivationFunction.py" />
         <option value="$PROJECT_DIR$/Chapter3/section3_1_regression.py" />
@@ -70,14 +79,15 @@
         <option value="$PROJECT_DIR$/Chapter4/section4_3_AboutRNN.py" />
         <option value="$PROJECT_DIR$/Chapter4/section4_4_AboutLSTM.py" />
         <option value="$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py" />
+        <option value="$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="75" />
-    <option name="y" value="115" />
+    <option name="y" value="298" />
     <option name="width" value="1281" />
-    <option name="height" value="704" />
+    <option name="height" value="521" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -85,13 +95,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Pytorch_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pytorch_Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pytorch_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pytorch_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pytorch_Learning" type="b2602c69:ProjectViewProjectNode" />
@@ -107,6 +121,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,8 +139,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.section4_5_MnistRNN">
-    <configuration name="section3_3_ConstructNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.section2_1_TorchAndNumpy">
+    <configuration name="section2_1_TorchAndNumpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pytorch_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter3/section3_3_ConstructNet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,19 +231,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.section3_3_ConstructNet" />
       <item itemvalue="Python.section3_4_SaveModle" />
       <item itemvalue="Python.section3_5_ReadModle" />
       <item itemvalue="Python.section3_6_DataLoader" />
       <item itemvalue="Python.section4_5_MnistRNN" />
+      <item itemvalue="Python.section2_1_TorchAndNumpy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.section2_1_TorchAndNumpy" />
         <item itemvalue="Python.section4_5_MnistRNN" />
         <item itemvalue="Python.section3_6_DataLoader" />
         <item itemvalue="Python.section3_5_ReadModle" />
         <item itemvalue="Python.section3_4_SaveModle" />
-        <item itemvalue="Python.section3_3_ConstructNet" />
       </list>
     </recent_temporary>
   </component>
@@ -246,14 +261,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="115" width="1281" height="704" extended-state="0" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24324325" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.67121214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -271,6 +287,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -337,13 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -417,11 +446,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="92">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#25#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
