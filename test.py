@@ -1,57 +1,77 @@
 import torch
 import torch.nn.functional as F
-import matplotlib.pyplot as plt
+from torch import nn, optim
+from torch.autograd import Variable
 
-# torch.manual_seed(1)    # reproducible
+CONTEXT_SIZE = 2
+EMBEDDING_DIM = 10
+# We will use Shakespeare Sonnet 2
+test_sentence = """When forty winters shall besiege thy brow,
+And dig deep trenches in thy beauty's field,
+Thy youth's proud livery so gazed on now,
+Will be a totter'd weed of small worth held:
+Then being asked, where all thy beauty lies,
+Where all the treasure of thy lusty days;
+To say, within thine own deep sunken eyes,
+Were an all-eating shame, and thriftless praise.
+How much more praise deserv'd thy beauty's use,
+If thou couldst answer 'This fair child of mine
+Shall sum my count, and make my old excuse,'
+Proving his beauty by succession thine!
+This were to be new made when thou art old,
+And see thy blood warm when thou feel'st it cold.""".split()
 
-# make fake data
-n_data = torch.ones(100, 2)
-x0 = torch.normal(2*n_data, 1)      # class0 x data (tensor), shape=(100, 2)
-y0 = torch.zeros(100)               # class0 y data (tensor), shape=(100, 1)
-x1 = torch.normal(-2*n_data, 1)     # class1 x data (tensor), shape=(100, 2)
-y1 = torch.ones(100)                # class1 y data (tensor), shape=(100, 1)
-x = torch.cat((x0, x1), 0).type(torch.FloatTensor)  # shape (200, 2) FloatTensor = 32-bit floating
-y = torch.cat((y0, y1), ).type(torch.LongTensor)    # shape (200,) LongTensor = 64-bit integer
+trigram = [((test_sentence[i], test_sentence[i + 1]), test_sentence[i + 2])
+           for i in range(len(test_sentence) - 2)]
+
+vocb = set(test_sentence)
+word_to_idx = {word: i for i, word in enumerate(vocb)}
+idx_to_word = {word_to_idx[word]: word for word in word_to_idx}
 
 
-
-class Net(torch.nn.Module):
-    def __init__(self, n_feature, n_hidden, n_output):
-        super(Net, self).__init__()
-        self.hidden = torch.nn.Linear(n_feature, n_hidden)   # hidden layer
-        self.out = torch.nn.Linear(n_hidden, n_output)   # output layer
+class NgramModel(nn.Module):
+    def __init__(self, vocb_size, context_size, n_dim):
+        super(NgramModel, self).__init__()
+        self.n_word = vocb_size
+        self.embedding = nn.Embedding(self.n_word, n_dim)
+        self.linear1 = nn.Linear(context_size * n_dim, 128)
+        self.linear2 = nn.Linear(128, self.n_word)
 
     def forward(self, x):
-        x = F.relu(self.hidden(x))      # activation function for hidden layer
-        x = self.out(x)
-        return x
+        emb = self.embedding(x)
+        emb = emb.view(1, -1)
+        out = self.linear1(emb)
+        out = F.relu(out)
+        out = self.linear2(out)
+        log_prob = F.log_softmax(out, 1)
+        return log_prob
 
-net = Net(n_feature=2, n_hidden=10, n_output=2)     # define the network
-print(net)  # net architecture
 
-optimizer = torch.optim.SGD(net.parameters(), lr=0.02)
-loss_func = torch.nn.CrossEntropyLoss()  # the target label is NOT an one-hotted
+ngrammodel = NgramModel(len(word_to_idx), CONTEXT_SIZE, 100)
+criterion = nn.NLLLoss()
+optimizer = optim.SGD(ngrammodel.parameters(), lr=1e-3)
 
-plt.ion()   # something about plotting
+for epoch in range(100):
+    print('epoch: {}'.format(epoch + 1))
+    print('*' * 10)
+    running_loss = 0
+    for data in trigram:
+        word, label = data
+        word = Variable(torch.LongTensor([word_to_idx[i] for i in word]))
+        label = Variable(torch.LongTensor([word_to_idx[label]]))
+        # forward
+        out = ngrammodel(word)
+        loss = criterion(out, label)
+        running_loss += loss.data.numpy()
+        # backward
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+    print('Loss: {:.6f}'.format(running_loss / len(word_to_idx)))
 
-for t in range(100):
-    out = net(x)                 # input x and predict based on x
-    loss = loss_func(out, y)     # must be (1. nn output, 2. target), the target label is NOT one-hotted
-
-    optimizer.zero_grad()   # clear gradients for next train
-    loss.backward()         # backpropagation, compute gradients
-    optimizer.step()        # apply gradients
-
-    if t % 2 == 0:
-        # plot and show learning process
-        plt.cla()
-        prediction = torch.max(out, 1)[1]
-        pred_y = prediction.data.numpy().squeeze()
-        target_y = y.data.numpy()
-        plt.scatter(x.data.numpy()[:, 0], x.data.numpy()[:, 1], c=pred_y, s=100, lw=0, cmap='RdYlGn')
-        accuracy = float((pred_y == target_y).astype(int).sum()) / float(target_y.size)
-        plt.text(1.5, -4, 'Accuracy=%.2f' % accuracy, fontdict={'size': 20, 'color':  'red'})
-        plt.pause(0.1)
-
-plt.ioff()
-plt.show()
+word, label = trigram[3]
+word = Variable(torch.LongTensor([word_to_idx[i] for i in word]))
+out = ngrammodel(word)
+_, predict_label = torch.max(out, 1)
+predict_word = idx_to_word[predict_label.data.numpy()[0]]
+print('real word is {}, predict word is {}'.format(label, predict_word))

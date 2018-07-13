@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6b05f3-9ed2-475e-a58f-8ac2747832c0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/eng-fra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Arabic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Chinese.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Czech.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Dutch.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/English.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/French.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/German.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Greek.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Irish.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Italian.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Japanese.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Korean.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Polish.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Portuguese.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Russian.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Scottish.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Spanish.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/data/names/Vietnamese.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/section5_1_WordEmbedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/section5_2_WordPrediction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/section5_3_LSTMTagger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/section5_4_NameClassification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +37,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="section4_5_MnistRNN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="304">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section5_1_WordEmbedding.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/section5_1_WordEmbedding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="e#25#37#0" expanded="true" />
               </folding>
@@ -27,23 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section2_1_TorchAndNumpy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py">
+      <file leaf-file-name="section5_3_LSTMTagger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/section5_3_LSTMTagger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="199">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="e#25#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section3_6_DataLoader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py">
+      <file leaf-file-name="section5_4_NameClassification.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter5/section5_4_NameClassification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <element signature="e#25#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -67,7 +101,6 @@
         <option value="$PROJECT_DIR$/Chapter2/section2_2_Variable.py" />
         <option value="$PROJECT_DIR$/Chapter2/section2_3_ActivationFunction.py" />
         <option value="$PROJECT_DIR$/Chapter3/section3_1_regression.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Chapter3/section3_2_Classification.py" />
         <option value="$PROJECT_DIR$/Chapter3/section3_3_ConstructNet.py" />
         <option value="$PROJECT_DIR$/Chapter3/section3_1_Regression.py" />
@@ -80,6 +113,11 @@
         <option value="$PROJECT_DIR$/Chapter4/section4_4_AboutLSTM.py" />
         <option value="$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py" />
         <option value="$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Chapter5/section5_2_WordPrediction.py" />
+        <option value="$PROJECT_DIR$/Chapter5/section5_1_WordEmbedding.py" />
+        <option value="$PROJECT_DIR$/Chapter5/section5_3_LSTMTagger.py" />
+        <option value="$PROJECT_DIR$/Chapter5/section5_4_NameClassification.py" />
       </list>
     </option>
   </component>
@@ -95,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,22 +149,21 @@
             <path>
               <item name="Pytorch_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pytorch_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pytorch_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pytorch_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Chapter5" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,79 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.section2_1_TorchAndNumpy">
-    <configuration name="section2_1_TorchAndNumpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pytorch_Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="section3_4_SaveModle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pytorch_Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter3/section3_4_SaveModle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="section3_5_ReadModle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pytorch_Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter3/section3_5_ReadModle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="section3_6_DataLoader" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pytorch_Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.section5_3_LSTMTagger">
     <configuration name="section4_5_MnistRNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pytorch_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,20 +196,92 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="section5_1_WordEmbedding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pytorch_Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/section5_1_WordEmbedding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="section5_2_WordPrediction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pytorch_Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/section5_2_WordPrediction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="section5_3_LSTMTagger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pytorch_Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/section5_3_LSTMTagger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pytorch_Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.section3_4_SaveModle" />
-      <item itemvalue="Python.section3_5_ReadModle" />
-      <item itemvalue="Python.section3_6_DataLoader" />
       <item itemvalue="Python.section4_5_MnistRNN" />
-      <item itemvalue="Python.section2_1_TorchAndNumpy" />
+      <item itemvalue="Python.section5_1_WordEmbedding" />
+      <item itemvalue="Python.section5_2_WordPrediction" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.section5_3_LSTMTagger" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.section2_1_TorchAndNumpy" />
+        <item itemvalue="Python.section5_3_LSTMTagger" />
+        <item itemvalue="Python.section5_2_WordPrediction" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.section4_5_MnistRNN" />
-        <item itemvalue="Python.section3_6_DataLoader" />
-        <item itemvalue="Python.section3_5_ReadModle" />
-        <item itemvalue="Python.section3_4_SaveModle" />
+        <item itemvalue="Python.section5_1_WordEmbedding" />
       </list>
     </recent_temporary>
   </component>
@@ -261,15 +299,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.67121214" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3409091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -286,14 +324,52 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter2/section2_2_Variable.py</url>
+          <line>2</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="885">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/section5_2_WordPrediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="11" />
           <folding>
             <element signature="e#25#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/section5_3_LSTMTagger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
@@ -301,9 +377,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#25#37#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -311,9 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#25#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -321,9 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#25#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -362,13 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter2/section2_2_Variable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter2/section2_3_ActivationFunction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -404,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/section3_4_SaveModle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -436,8 +510,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/section3_6_DataLoader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="390">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-980">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter2/section2_2_Variable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#25#37#0" expanded="true" />
           </folding>
@@ -446,18 +534,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter4/section4_5_MnistRNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/section5_2_WordPrediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="11" />
           <folding>
             <element signature="e#25#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter2/section2_1_TorchAndNumpy.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="304">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/section5_1_WordEmbedding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/section5_3_LSTMTagger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/data/names/Czech.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/section5_4_NameClassification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
