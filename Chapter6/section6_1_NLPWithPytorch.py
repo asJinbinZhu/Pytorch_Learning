@@ -789,6 +789,7 @@ recognition.
 
 # Example: Bidirectional LSTM Conditional Random Field for Named-Entity Recognition
 # Helper functions to make the code more readable.
+'''
 def to_scalar(var):
     # returns a python float
     return var.view(-1).data.tolist()[0]
@@ -999,3 +1000,5 @@ for epoch in xrange(300):  # again, normally you would NOT do 300 epochs, it is 
 precheck_sent = prepare_sequence(training_data[0][0], word_to_ix)
 print(model(precheck_sent))
 # We got it!
+
+'''

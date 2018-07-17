@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6b05f3-9ed2-475e-a58f-8ac2747832c0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter6/section6_1_NLPWithPytorch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testMultiValueToSingleKey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testUnicodeToASCII.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5/section5_4_NameClassification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/section5_4_NameClassification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter6/section6_1_NLPWithPytorch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter6/section6_1_NLPWithPytorch.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="section6_1_NLPWithPytorch.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="section6_1_NLPWithPytorch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter6/section6_1_NLPWithPytorch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="996" lean-forward="true" selection-start-line="996" selection-end-line="996" />
+            <state relative-caret-position="-1970">
+              <caret line="857" lean-forward="true" selection-start-line="857" selection-end-line="857" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section5_4_NameClassification.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter5/section5_4_NameClassification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -256,12 +259,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44545454" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44545454" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -572,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/section5_4_NameClassification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -618,11 +613,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter6/section6_1_NLPWithPytorch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="996" lean-forward="true" selection-start-line="996" selection-end-line="996" />
+        <state relative-caret-position="-1970">
+          <caret line="857" lean-forward="true" selection-start-line="857" selection-end-line="857" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/section5_4_NameClassification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
